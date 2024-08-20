@@ -1,5 +1,6 @@
 package kapyrin.enemy;
 
+import kapyrin.Mortal;
 import kapyrin.heroes.Hero;
 
 public class Enemy implements Mortal {
