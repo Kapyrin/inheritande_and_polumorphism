@@ -1,13 +1,15 @@
-package kapyrin;
+package kapyrin.heroes;
 
-public class Warrior extends Hero{
-    public Warrior(String name,int health) {
+import kapyrin.enemy.Enemy;
+
+public class Archer extends Hero{
+    public Archer(String name, int health) {
         super(name, health);
     }
 
     @Override
     public void attackEnemy(Enemy enemy) {
-        enemy.takeDamage(5);
+        enemy.takeDamage(10);
         System.out.println(getName() + " attacks the " + enemy.getClass().getSimpleName());
     }
 }

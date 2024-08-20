@@ -1,4 +1,6 @@
-package kapyrin;
+package kapyrin.enemy;
+
+import kapyrin.heroes.Hero;
 
 public class Zombie extends Enemy {
     private int attemptToResurrect = 1;

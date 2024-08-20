@@ -1,5 +1,11 @@
 package kapyrin;
 
+import kapyrin.enemy.Enemy;
+import kapyrin.heroes.Archer;
+import kapyrin.heroes.Hero;
+import kapyrin.heroes.Mage;
+import kapyrin.heroes.Warrior;
+
 public class TrainingGround {
     public static void main(String[] args) {
         Enemy enemy = new Enemy(50);

@@ -1,4 +1,6 @@
-package kapyrin;
+package kapyrin.heroes;
+
+import kapyrin.enemy.Enemy;
 
 public class Mage extends Hero{
     public Mage(String name, int health) {

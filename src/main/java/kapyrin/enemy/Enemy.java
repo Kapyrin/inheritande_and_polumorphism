@@ -1,6 +1,6 @@
-package kapyrin;
+package kapyrin.enemy;
 
-import java.sql.SQLOutput;
+import kapyrin.heroes.Hero;
 
 public class Enemy implements Mortal {
     private int health;

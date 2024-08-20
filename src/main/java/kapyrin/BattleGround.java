@@ -1,5 +1,12 @@
 package kapyrin;
 
+import kapyrin.enemy.Enemy;
+import kapyrin.enemy.Zombie;
+import kapyrin.heroes.Archer;
+import kapyrin.heroes.Hero;
+import kapyrin.heroes.Mage;
+import kapyrin.heroes.Warrior;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

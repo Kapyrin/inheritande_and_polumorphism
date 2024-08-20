@@ -1,4 +1,6 @@
-package kapyrin;
+package kapyrin.heroes;
+
+import kapyrin.enemy.Enemy;
 
 public abstract class Hero {
     private String name;
