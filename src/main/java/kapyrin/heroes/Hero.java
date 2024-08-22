@@ -1,8 +1,9 @@
 package kapyrin.heroes;
 
+import kapyrin.Mortal;
 import kapyrin.enemy.Enemy;
 
-public abstract class Hero {
+public abstract class Hero implements Mortal {
     private String name;
     private int health;
 
